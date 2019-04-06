@@ -13,6 +13,8 @@ rm ~/.vimrc
 mkdir -p $VIM_PLUGIN_DIR
 git clone https://github.com/scrooloose/nerdtree.git $VIM_PLUGIN_DIR/nerdtree
 git clone git://github.com/vim-ruby/vim-ruby.git $VIM_PLUGIN_DIR/vim-ruby
+git clone https://github.com/ctrlpvim/ctrlp.vim.git $VIM_PLUGIN_DIR/ctrlp.vim
+git clone https://github.com/w0rp/ale.git $VIM_PLUGIN_DIR/ale.git
 
 ln -s ~/dotfiles/.vimrc ~/.vimrc
 
