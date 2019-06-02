@@ -5,6 +5,8 @@
 :set autoindent
 :set smartindent
 
+filetype indent on
+
 " So are line numbers.
 :set number
 
